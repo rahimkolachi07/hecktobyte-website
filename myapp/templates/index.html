@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  {% load static %}
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <link rel="shortcut icon" href="{% static 'images/s1.png' %}" type="">
+
+  <title> HecktoByte </title>
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.css' %}" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+  <!--owl slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+  <!-- font awesome style -->
+  <link href="{% static 'css/font-awesome.min.css' %}" rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+  <link href="{% static 'css/style.css' %}" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="{% static 'css/responsive.css' %}" rel="stylesheet" />
+
+</head>
+
+<body>
+
+  <div class="hero_area">
+
+    <div class="hero_bg_box">
+      <div class="bg_img_box">
+        <img src="{% static 'images/hero-bg.png' %}" alt="">
+      </div>
+    </div>
+
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container ">
+          <a class="navbar-brand" href="index.html">
+            <span>
+              HecktoByte
+            </span>
+          </a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class=""> </span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav  ">
+              <li class="nav-item active">
+                <a class="nav-link" href="http://hecktobyte.services:8000/home">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="http://hecktobyte.services:8000/about"> About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="http://hecktobyte.services:8000/service">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="http://hecktobyte.services:8000/why">Why Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="http://hecktobyte.services:8000/team">Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"> <i class="fa fa-user" aria-hidden="true"></i> Login</a>
+              </li>
+              <form class="form-inline">
+                <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">
+                  <i class="fa fa-search" aria-hidden="true"></i>
+                </button>
+              </form>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+    <!-- slider section -->
+    <section class="slider_section ">
+      <div id="customCarousel1" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container ">
+              <div class="row">
+                <div class="col-md-6 ">
+                  <div class="detail-box">
+                    <h1>
+                       Hecktobyte <br>
+                       AI Service Provider
+                    </h1>
+                    <p>
+                      At Hecktobyte, we're on a mission to revolutionize businesses worldwide through the power of artificial intelligence. Our dedication to driving innovation and transformation is at the core of everything we do.
+                    </p>
+                    <div class="btn-box">
+                      <a href="" class="btn1">
+                        Read More
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="img-box">
+                    <img src="{% static 'images/slider-img.png' %}" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item ">
+            <div class="container ">
+              <div class="row">
+                <div class="col-md-6 ">
+                  <div class="detail-box">
+                    <h1>
+                      HecktoByte <br>
+                      AI Tools Provider
+                    </h1>
+                    <p>
+                      Explore our wide array of cutting-edge AI services designed to meet the diverse needs of modern businesses. From data science to website development, our expertise spans across multiple domains, ensuring that we can provide comprehensive solutions tailored to your specific requirements.
+                    </p>
+                    <div class="btn-box">
+                      <a href="" class="btn1">
+                        Read More
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="img-box">
+                    <img src="{% static 'images/slider-img.png' %}" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container ">
+              <div class="row">
+                <div class="col-md-6 ">
+                  <div class="detail-box">
+                    <h1>
+                      HecktoByte <br>
+                      R&D Service Provider
+                    </h1>
+                    <p>
+                      Ready to take your business to new heights? Partner with Hecktobyte to unlock the full potential of AI and propel your organization into the future. Whether you're looking to optimize processes, enhance customer experiences, or drive innovation, we're here to support you every step of the way. Contact us today to get started on your AI journey.
+                    </p>
+                    <div class="btn-box">
+                      <a href="" class="btn1">
+                        Read More
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="img-box">
+                    <img src="{% static 'images/slider-img.png' %}" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <ol class="carousel-indicators">
+          <li data-target="#customCarousel1" data-slide-to="0" class="active"></li>
+          <li data-target="#customCarousel1" data-slide-to="1"></li>
+          <li data-target="#customCarousel1" data-slide-to="2"></li>
+        </ol>
+      </div>
+
+    </section>
+    <!-- end slider section -->
+  </div>
+
+
+  <!-- service section -->
+
+  <section class="service_section layout_padding">
+    <div class="service_container">
+      <div class="container ">
+        <div class="heading_container heading_center">
+          <h2>
+            Our <span>Services</span>
+          </h2>
+          <p>
+            Empower your business with precision-driven AI solutions tailored to your needs.
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-md-4 ">
+            <div class="box ">
+              <div class="img-box">
+                <img src="{% static 'images/nlp.gif' %}" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Natural Language Processing
+                </h5>
+                <p>
+                  Transform unstructured text data into valuable insights with our NLP expertise. Whether it's sentiment analysis, text summarization, or language translation, we deliver state-of-the-art NLP solutions tailored to your needs.
+                </p>
+                <a href="">
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 ">
+            <div class="box ">
+              <div class="img-box">
+                <img src="{% static 'images/vision.gif' %}" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Computer Vision
+                </h5>
+                <p>
+                  Unlock the power of visual data with our computer vision solutions. From image recognition to object detection, our AI algorithms enable automated analysis of visual content for various applications across industries.
+                </p>
+                <a href="">
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 ">
+            <div class="box ">
+              <div class="img-box">
+                <img src="{% static 'images/datascience.gif' %}" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Data Science
+                </h5>
+                <p>
+                  Leverage the insights hidden within your data with our advanced data science solutions. From predictive analytics to machine learning algorithms, we help you extract actionable intelligence to make informed business decisions.
+                </p>
+                <a href="">
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="btn-box">
+          <a href="">
+            View All
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end service section -->
+
+
+  <!-- about section -->
+
+  <section class="about_section layout_padding">
+    <div class="container  ">
+      <div class="heading_container heading_center">
+        <h2>
+          About <span>Us</span>
+        </h2>
+        <p>
+          From visionary concepts to groundbreaking innovations, watch us turn the power of AI into your business's success story
+        </p>
+      </div>
+      <div class="row">
+        <div class="col-md-6 ">
+          <div class="img-box">
+            <img src="{% static 'images/ai.gif' %}" alt="">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="detail-box">
+            <h3>
+              We Are HecktoByte
+            </h3>
+            <p>
+              
+Hecktobyte is not just an AI service providing company; we're the architects of innovation, dedicated to turning your every idea into a breathtaking reality. With our unmatched expertise and cutting-edge AI solutions, we transcend boundaries, bringing your boldest visions to life with precision and finesse. From conceptualization to execution, we're with you every step of the way, harnessing the transformative power of AI to propel your business into a future defined by limitless possibilities. Welcome to Hecktobyte, where dreams meet data, and the extraordinary becomes the norm.
+            </p>
+            <p>
+              
+            </p>
+            <a href="">
+              Read More
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end about section -->
+
+  <!-- why section -->
+
+  <section class="why_section layout_padding">
+    <div class="container">
+      <div class="heading_container heading_center">
+        <h2>
+          Why Choose <span>Us</span>
+        </h2>
+      </div>
+      <div class="why_container">
+        <div class="box">
+          <div class="img-box">
+            <img src="{% static 'images/customize.gif' %}" alt="">
+          </div>
+          <div class="detail-box">
+            <h5>
+              Customized Solutions
+            </h5>
+            <p>
+              At Hecktobyte, we understand that every business is unique, with its own set of challenges and goals. That's why we take pride in offering customized AI solutions tailored to meet your specific needs. Whether you require data analysis tools, natural language processing algorithms, or computer vision applications, our team works closely with you to understand your requirements and develop solutions that address them precisely. With our bespoke approach, you can rest assured that the AI solutions we deliver are designed to fit seamlessly into your existing processes and drive maximum impact for your business.
+          
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img-box">
+            <img src="{% static 'images/tech.gif' %}" alt="">
+          </div>
+          <div class="detail-box">
+            <h5>
+              State-of-the-Art Technology
+            </h5>
+            <p>
+              Embracing the forefront of AI innovation, Hecktobyte leverages state-of-the-art technology to deliver solutions that exceed expectations. From cutting-edge machine learning algorithms to advanced neural networks, we harness the latest advancements in AI to ensure that your solutions are at the pinnacle of performance and efficiency. With our commitment to staying ahead of the curve, you can trust that the AI technology powering your solutions is always up-to-date and equipped to handle the challenges of tomorrow.
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img-box">
+            <img src="{% static 'images/team.gif' %}" alt="">
+          </div>
+          <div class="detail-box">
+            <h5>
+              Collaborative Partnership:
+            </h5>
+            <p>
+              At Hecktobyte, we believe that the key to success lies in collaboration. That's why we adopt a collaborative partnership approach with our clients, working closely with you every step of the way to develop solutions that align with your vision and goals. From initial consultation to implementation and beyond, our team is dedicated to understanding your unique business needs and crafting AI solutions that drive tangible results. With open communication channels and a shared commitment to success, together, we can turn your AI aspirations into reality.
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img-box">
+            <img src="{% static 'images/suc.gif' %}" alt="">
+          </div>
+          <div class="detail-box">
+            <h5>
+              Proven Success Stories
+            </h5>
+            <p>
+              With a track record of successful AI implementations across various industries, Hecktobyte has earned a reputation for delivering results. Our proven success stories and case studies showcase the tangible impact that our AI solutions have had on businesses like yours. From optimizing operations and increasing efficiency to driving innovation and enhancing customer experiences, our solutions have consistently delivered measurable outcomes that exceed expectations. When you choose Hecktobyte, you're choosing a partner with a proven track record of success in the realm of artificial intelligence.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="btn-box">
+        <a href="">
+          Read More
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- end why section -->
+
+  <!-- team section -->
+  <section class="team_section layout_padding">
+    <div class="container-fluid">
+      <div class="heading_container heading_center">
+        <h2 class="">
+          Our <span> Team</span>
+        </h2>
+      </div>
+
+      <div class="team_container">
+        <div class="row">
+          <div class="col-lg-3 col-sm-6">
+            <div class="box ">
+              <div class="img-box">
+                <img src="{% static 'images/team-1.jpg' %}" class="img1" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Kareem Kolachi
+                </h5>
+                <p>
+                  Founder
+                </p>
+              </div>
+              <div class="social_box">
+                <a href="#">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-linkedin" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="box ">
+              <div class="img-box">
+                <img src="{% static 'images/raheem.jpg' %}" class="img1" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Abdul Rahim
+                </h5>
+                <p>
+                  Co-Founder & CEO
+                </p>
+              </div>
+              <div class="social_box">
+                <a href="#">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-linkedin" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="box ">
+              <div class="img-box">
+                <img src="{% static 'images/team-3.jpg' %}" class="img1" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Inayatullah
+                </h5>
+                <p>
+                  Director of Technology
+                </p>
+              </div>
+              <div class="social_box">
+                <a href="#">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-linkedin" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="box ">
+              <div class="img-box">
+                <img src="{% static 'images/team-4.jpg' %}" class="img1" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Touqeer Jumani
+                </h5>
+                <p>
+                  Director of R&D
+                </p>
+              </div>
+              <div class="social_box">
+                <a href="#">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-linkedin" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end team section -->
+
+
+    <!-- client section -->
+
+    <section class="client_section layout_padding">
+      <div class="container">
+        <div class="heading_container heading_center psudo_white_primary mb_45">
+          <h2>
+            What says our <span>Customers</span>
+          </h2>
+        </div>
+        <div class="carousel-wrap ">
+          <div class="owl-carousel client_owl-carousel">
+            <div class="item">
+              <div class="box">
+                <div class="img-box">
+                  <img src="{% static 'images/client1.jpg' %}" alt="" class="box-img">
+                </div>
+                <div class="detail-box">
+                  <div class="client_id">
+                    <div class="client_info">
+                      <h6>
+                        mohafak
+                      </h6>
+                      <p>
+                        Saudi arbia
+                      </p>
+                    </div>
+                    <i class="fa fa-quote-left" aria-hidden="true"></i>
+                  </div>
+                  <img src="{% static 'images/client0.png' %}" alt="Client 1 Review" class="box-img">
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="box">
+                <div class="img-box">
+                  <img src="{% static 'images/client2.jpg' %}" alt="" class="box-img">
+                </div>
+                <div class="detail-box">
+                  <div class="client_id">
+                    <div class="client_info">
+                      <h6>
+                        ajay_yadagiri
+                      </h6>
+                      <p>
+                        Canada
+                      </p>
+                    </div>
+                    <i class="fa fa-quote-left" aria-hidden="true"></i>
+                  </div>
+                  <img src="{% static 'images/client3.png' %}" alt="Client 1 Review" class="box-img">
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="box">
+                <div class="img-box">
+                  <img src="{% static 'images/client3.jpg' %}" alt="" class="box-img">
+                </div>
+                <div class="detail-box">
+                  <div class="client_id">
+                    <div class="client_info">
+                      <h6>
+                        yjmfan
+                      </h6>
+                      <p>
+                        Philippines
+                      </p>
+                    </div>
+                    <i class="fa fa-quote-left" aria-hidden="true"></i>
+                  </div>
+                  <img src="{% static 'images/client4.png' %}" alt="Client 1 Review" class="box-img">
+
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="box">
+                <div class="img-box">
+                  <img src="{% static 'images/client4.jpeg' %}" alt="" class="box-img">
+                </div>
+                <div class="detail-box">
+                  <div class="client_id">
+                    <div class="client_info">
+                      <h6>
+                        gerhardrma
+                      </h6>
+                      <p>
+                        Netherlands
+                      </p>
+                    </div>
+                    <i class="fa fa-quote-left" aria-hidden="true"></i>
+                  </div>
+                  <img src="{% static 'images/client5.png' %}" alt="Client 1 Review" class="box-img">
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+  
+    </section>
+  
+    <!-- end client section -->
+
+
+  <!-- info section -->
+
+  <section class="info_section layout_padding2">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-3 info_col">
+          <div class="info_contact">
+            <h4>
+              Address
+            </h4>
+            <div class="contact_link_box">
+              <a href="">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <span>
+                  office No 23, Jamshoro, Sindh, Pakistan
+                </span>
+              </a>
+              <a href="">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <span>
+                  Call +923483138265
+                </span>
+              </a>
+              <a href="">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <span>
+                  ceo@hecktobyte.com
+                </span>
+              </a>
+            </div>
+          </div>
+          <div class="info_social">
+            <a href="">
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+            <a href="">
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a href="">
+              <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+            <a href="">
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 info_col">
+          <div class="info_detail">
+            <h4>
+              Info
+            </h4>
+            <p>
+              Let's bridge the gap between imagination and execution as we sculpt AI-driven solutions that captivate and conquer
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-2 mx-auto info_col">
+          <div class="info_link_box">
+            <h4>
+              Links
+            </h4>
+            <div class="info_links">
+              <a class="active" href="http://hecktobyte.services:8000/home">
+                Home
+              </a>
+              <a class="" href="http://hecktobyte.services:8000/about">
+                About
+              </a>
+              <a class="" href="http://hecktobyte.services:8000/service">
+                Services
+              </a>
+              <a class="" href="http://hecktobyte.services:8000/why">
+                Why Us
+              </a>
+              <a class="" href="http://hecktobyte.services:8000/team">
+                Team
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 info_col ">
+          <h4>
+            Subscribe
+          </h4>
+          <form action="#">
+            <input type="text" placeholder="Enter email" />
+            <button type="submit">
+              Subscribe
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end info section -->
+
+  <!-- footer section -->
+  <section class="footer_section">
+    <div class="container">
+      <p>
+        &copy; <span id="displayYear"></span> All Rights Reserved By
+        <a href="https://html.design/">Hecktobyte</a>
+      </p>
+    </div>
+  </section>
+  <!-- footer section -->
+
+  <!-- jQery -->
+  <script type="text/javascript" src="{% static 'js/jquery-3.4.1.min.js' %}"></script>
+  <!-- popper js -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <!-- bootstrap js -->
+  <script type="text/javascript" src="{% static 'js/bootstrap.js' %}"></script>
+  <!-- owl slider -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+  </script>
+  <!-- custom js -->
+  <script type="text/javascript" src="{% static 'js/custom.js' %}"></script>
+  <!-- Google Map -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
+  </script>
+  <!-- End Google Map -->
+
+</body>
+
+</html>
